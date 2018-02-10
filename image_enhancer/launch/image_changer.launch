@@ -1,0 +1,10 @@
+<launch>
+  
+    <node pkg="image_enhancer_150248" type="image_changer" name="image_changer" clear_params="true" output="screen">
+    
+        
+        <rosparam file="$(find image_enhancer_150248)/param/image_changer.yaml" />
+
+    </node>
+        
+</launch>
