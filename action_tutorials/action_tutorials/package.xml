@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>action_tutorials</name>
+  <version>0.1.0</version>
+  <description>simple actionlib tutorials</description>
+
+  <maintainer email="gajendranagar02@gmail.com">Gajendra Nagar</maintainer>
+
+  <license>NA</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>cmake_modules</depend>
+  <depend>roscpp</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>eigen_conversions</depend>
+  <depend>tf</depend>
+  <depend>tf_conversions</depend>
+  <depend>action_msgs</depend>
+
+</package>
