@@ -12,14 +12,16 @@ set(CMAKE_BUILD_TYPE Release)
 #############
 cs_add_library(${PROJECT_NAME}
   src/fibonacci_server.cpp
+  src/fibonacci_client.cpp
 )
-target_link_libraries(${PROJECT_NAME})
-
 ############
 # BINARIES #
 ############
 cs_add_executable(fibonacci_server_node src/fibonacci_server_node.cpp)
 target_link_libraries(fibonacci_server_node  ${PROJECT_NAME})
+
+cs_add_executable(fibonacci_client_node src/fibonacci_client_node.cpp)
+target_link_libraries(fibonacci_client_node  ${PROJECT_NAME})
 
 ##########
 # EXPORT #
